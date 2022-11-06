@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/double_activity_margin"
+    android:alpha=".8"
+    style="@style/MaterialCardWithBorder"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:showIn="@layout/content_main">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/slim_margin"
+        android:orientation="horizontal"
+        android:background="@color/colorDefaultBackground">
+
+        <Button
+            style="@style/BorderlessButton13Stones"
+            android:text="@string/one"/>
+        <Button
+            style="@style/BorderlessButton13Stones"
+            android:text="@string/two"/>
+        <Button
+            style="@style/BorderlessButton13Stones"
+            android:text="@string/three"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+
